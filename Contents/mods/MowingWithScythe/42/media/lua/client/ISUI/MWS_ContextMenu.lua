@@ -15,7 +15,6 @@ function ContextMenu.onMowGrass(player, scythe)
 end
 
 function ContextMenu.addMowContextOption(player, context, worldObjects, test)
-
 	local playerObj = getSpecificPlayer(player)
 	local playerInv = playerObj:getInventory()
 	if playerObj:isAsleep() then return end
